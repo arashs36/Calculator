@@ -113,7 +113,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/seven"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
@@ -121,28 +120,28 @@
                     android:text="@string/seven"
                     android:textColor="@android:color/white"
                     android:textSize="50sp"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/seven"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal"
-                android:id="@+id/right">
+                android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textSize="50sp"
                     android:textColor="@android:color/white"
                     android:text="@string/eight"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/eight"/>
 
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/nine"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
@@ -151,7 +150,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="50sp"
                     android:text="@string/nine"
-                    />
+                    android:id="@+id/nine"/>
 
             </LinearLayout>
             <LinearLayout
@@ -181,7 +180,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/four"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
@@ -189,28 +187,28 @@
                     android:text="@string/four"
                     android:textColor="@android:color/white"
                     android:textSize="50sp"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/four"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal"
-                android:id="@+id/five">
+                android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textSize="50sp"
                     android:textColor="@android:color/white"
                     android:text="@string/five"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/five"/>
 
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/six"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
@@ -219,7 +217,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="50sp"
                     android:text="@string/six"
-                    />
+                    android:id="@+id/six"/>
 
             </LinearLayout>
             <LinearLayout
@@ -249,7 +247,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/one"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
@@ -257,28 +254,28 @@
                     android:text="@string/one"
                     android:textColor="@android:color/white"
                     android:textSize="50sp"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/one"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="horizontal"
-                android:id="@+id/two">
+                android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textSize="50sp"
                     android:textColor="@android:color/white"
                     android:text="@string/two"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/two"/>
 
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:id="@+id/three"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
@@ -287,7 +284,7 @@
                     android:textColor="@android:color/white"
                     android:textSize="50sp"
                     android:text="@string/three"
-                    />
+                    android:id="@+id/three"/>
 
             </LinearLayout>
             <LinearLayout
@@ -316,7 +313,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:id="@+id/dot"
                 android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
@@ -324,21 +320,22 @@
                     android:text="@string/dot"
                     android:textColor="@android:color/white"
                     android:textSize="50sp"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/dot"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:orientation="horizontal"
-                android:id="@+id/zero">
+                android:orientation="horizontal">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:textSize="50sp"
                     android:textColor="@android:color/white"
                     android:text="@string/zero"
-                    android:gravity="center"/>
+                    android:gravity="center"
+                    android:id="@+id/zero"/>
 
             </LinearLayout>
             <LinearLayout
